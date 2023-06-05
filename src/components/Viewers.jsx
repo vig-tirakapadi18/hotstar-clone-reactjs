@@ -24,7 +24,7 @@ const Viewers = () => {
           loop={true}
           playsInline={true}>
           <source
-            src="../assets/videos/disney.mp4"
+            src={disneyVideo}
             type="video/mp4"
           />
         </video>

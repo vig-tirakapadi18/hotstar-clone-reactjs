@@ -15,7 +15,6 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import {
   selectUserName,
-  selectUserEmail,
   selectUserPhoto,
   setUserLoginDetails,
   setSignOutState,
