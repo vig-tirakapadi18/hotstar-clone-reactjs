@@ -4,6 +4,7 @@ import homeBackground from "../assets/images/home-background.png";
 import ImgSlider from "./ImgSlider";
 import Viewers from "./Viewers";
 import Recommends from "./Recommends";
+import NewDisney from "./NewDisney";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <ImgSlider />
       <Viewers />
       <Recommends />
+      <NewDisney />
     </Container>
   );
 };
